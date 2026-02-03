@@ -12,9 +12,17 @@ private:
 public:
     // TODO: Write PROTOTYPE for  constructor that initializes both values
 
+    Pair(T1 f, T2 s) { first = f; second = s; }
+
     // TODO: Write PROTOTYPE for  function named print()
     // It should display both values in the format:
     // (value1, value2)
+
+    void print() {
+
+        cout << "(" << first << ", " << second << ")" << endl;
+
+    }
 };
 
 // TO DO: Include implementation file here
